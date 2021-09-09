@@ -1,0 +1,19 @@
+.title {
+  height: 74px;
+  padding: 14px 58px;
+  h2 {
+    color: #212121;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 2px 0 0;
+  }
+}
+
+.breadcrumb {
+  display: flex;
+  color: #424242;
+  font-size: 14px;
+  .breadcrumb-divder {
+    margin: 0 8px;
+  }
+}

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  padding-left: 58px;
+  border-top: 1px solid #e3e8f2;
+  border-bottom: 1px solid #e3e8f2;
+}
+.nav-items {
+  height: 38px;
+  border-bottom: 2px solid #fff;
+  margin-right: 30px;
+  color: #616161;
+  font-size: 14px;
+  letter-spacing: 0.0525em;
+  min-width: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    margin-right: 5px;
+  }
+  &.selected {
+    color: #4a4aff;
+    border-color: #4a4aff;
+  }
+}

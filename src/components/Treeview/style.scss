@@ -1,0 +1,32 @@
+.treeview {
+  padding: 17px 12px 17px 16px;
+  .panel {
+    margin-bottom: 38px;
+  }
+  .heading {
+    margin-bottom: 14px;
+    display: flex;
+    h3 {
+      margin: 0;
+      font-size: 16px;
+      letter-spacing: 0.01em;
+      font-weight: 500;
+
+      color: #212121;
+    }
+    .svg {
+      margin-left: 8px;
+    }
+  }
+  .item {
+    margin-bottom: 14px;
+    font-size: 14px;
+    letter-spacing: 0.0025em;
+    color: #424242;
+    display: flex;
+    align-items: center;
+    span {
+      margin-left: 10px;
+    }
+  }
+}

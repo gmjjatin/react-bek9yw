@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter;
+}
+.sidebar,
+.main-container {
+  position: fixed;
+}
+.sidebar {
+  /* background-color: red; */
+  width: 256px;
+  border-right: 0.7px solid #e3e8f2;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.main-container {
+  background-color: #f0f0f0;
+  top: 0;
+  left: 256px;
+  height: 100%;
+  width: calc(100% - 256px);
+}
+.topbar {
+  background-color: #ffffff;
+  height: 114px;
+}
